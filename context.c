@@ -1,6 +1,6 @@
 /* Copyright (c) 2005-2006 Russ Cox, MIT; see COPYRIGHT */
 
-#include "taskimpl.h"
+#include "mac-ucontext.h"
 
 #define NEEDAMD64MAKECONTEXT
 #define NEEDSWAPCONTEXT

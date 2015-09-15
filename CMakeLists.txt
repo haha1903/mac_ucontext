@@ -11,9 +11,10 @@ set_property(SOURCE asm.S PROPERTY LANGUAGE ASM)
 # add_executable(hahac ${SOURCE_FILES})
 
 file(GLOB helloworld_SRC
-        "*.h"
-        "*.c"
-        "*.S"
+    "*.h"
+    "*.c"
+    "*.cpp"
+    "*.S"
 )
 
 add_executable(helloworld ${helloworld_SRC})
